@@ -1,0 +1,22 @@
+{
+  "name": "alfox-3d-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://<your-github-username>.github.io/<repo-name>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.56.8",
+    "@react-three/fiber": "^8.13.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "gh-pages": "^5.0.0"
+  }
+}
